@@ -16,6 +16,11 @@ jobs:
       - name: checkout repositry 
         uses: actions/checkout@v4.2.2
 
+      - name: PWD LS
+        run: |
+             pwd
+             ls -laF
+
 
         
       
