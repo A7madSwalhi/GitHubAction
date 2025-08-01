@@ -1,0 +1,14 @@
+name: First GitHub Action
+on:
+  push:
+    branches:
+      - master
+
+
+jobs: 
+  example-job:
+    runs-on: ubuntu-latest 
+
+    steps:
+      - name: Welcoming
+        run: echo "Hello From Git Hub Action"
