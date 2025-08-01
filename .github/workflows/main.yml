@@ -1,0 +1,14 @@
+name: Test Git Hub Action 
+on: 
+  push:
+    branches:
+      - main
+
+jobs: 
+  print-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello 
+        run: echo "Ahmad From GitHub Action"
+    
