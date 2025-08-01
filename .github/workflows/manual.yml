@@ -19,4 +19,4 @@ jobs:
 
         steps:
             - name: Deploy Application
-              run: echo "Deployed {{ inputs.enviroment }}"
+              run: echo "Deployed ${{ inputs.enviroment }}"
