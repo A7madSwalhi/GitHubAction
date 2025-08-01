@@ -1,12 +1,15 @@
 function greet(name){
+    
     return `Hello, ${name}`
+}
 
-    modeule.export = greet
 
 
-    if (requestAnimationFrame.main === modeule){
+modeule.export = greet
 
-        console.log(greet("world"));
 
-    }
+if (requestAnimationFrame.main === modeule){
+
+    console.log(greet("world"));
+
 }
