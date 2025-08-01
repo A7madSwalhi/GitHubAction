@@ -1,0 +1,11 @@
+on: 
+    schedule:
+        - cron: "25 * * * *"
+
+
+jobs:
+    daily-task:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Prind Time
+              run: echo date
